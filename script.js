@@ -74,7 +74,7 @@ no_button.addEventListener('click', () => {
     }
     clicks++;
     // increase button height and width gradually to 250px
-    const sizes = [40, 50, 30, 35, 45]
+    const sizes = [5, 15, 20, 25, 10]
     const random = Math.floor(Math.random() * sizes.length);
     size += sizes[random]
     yes_button.style.height = `${size}px`;
